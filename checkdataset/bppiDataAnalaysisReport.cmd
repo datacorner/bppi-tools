@@ -1,0 +1,3 @@
+@echo off
+cd "C:\Program Files\KNIME\"
+"C:\Program Files\KNIME\knime.exe" --launcher.suppressErrors -nosave -noexit -consolelog -nosplash -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="C:\knime-wk\BPPI Toolbox\BPPI_DataAnalysis_BuildReport" -workflow.variable="BPPI_OutputPath","C:\knime-wk\BPPI Toolbox\out","String" -workflow.variable="file","C:\knime-wk\BPPI Toolbox\datasources\data.csv","String" -workflow.variable="TIMELINEID_Column","TimelineID","String" -workflow.variable="TIMESTAMP_Column","Date","String" -workflow.variable="EVENTID_Column","Event","String"

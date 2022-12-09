@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files\KNIME\knime.exe" --launcher.suppressErrors -reset -nosave -consolelog -nosplash -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="C:\knime-wk\BPPI Toolbox\BPPI_ConvExcelToCSV" -workflow.variable="BPPI_OutputPath","C:\\knime-wk\\BPPI Toolbox","String" -workflow.variable="inputfile","C:\knime-wk\BPPI Toolbox\datasources\data.xlsx","String" -workflow.variable="outputfile","C:\knime-wk\BPPI Toolbox\datasources\dataconv.csv","String" 
